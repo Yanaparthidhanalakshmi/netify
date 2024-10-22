@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale &amp; Ship Faster with a Composable Web Architecture | Netlify Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/favicon/icon.svg" type="image/svg+xml">
+    <link rel="canonical" href="https://www.netlify.com/">
+</head>
+<body>
+    <div id="top">
+  <div class="nav">
+    <div class="logo" >
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 209" fill="none" aria-hidden="true" data-astro-cid-jwiz4kkf=""> <g clip-path="url(#clip0_235_8)" data-astro-cid-jwiz4kkf=""> <path d="M117.436 207.036V154.604L118.529 153.51H129.452L130.545 154.604V207.036L129.452 208.13H118.529L117.436 207.036Z" class="spark" data-astro-cid-jwiz4kkf=""></path> <path d="M117.436 53.5225V1.09339L118.529 0H129.452L130.545 1.09339V53.5225L129.452 54.6159H118.529L117.436 53.5225Z" class="spark" data-astro-cid-jwiz4kkf=""></path> <path d="M69.9539 169.238H68.4094L60.6869 161.512V159.967L78.7201 141.938L86.8976 141.942L87.9948 143.031V151.209L69.9539 169.238Z" class="spark" data-astro-cid-jwiz4kkf=""></path> <path d="M69.9462 38.8917H68.4017L60.6792 46.6181V48.1626L78.7124 66.192L86.8899 66.1882L87.9871 65.0986V56.9212L69.9462 38.8917Z" class="spark" data-astro-cid-jwiz4kkf=""></path> <path d="M1.09339 97.5104H75.3711L76.4645 98.6038V109.526L75.3711 110.62H1.09339L0 109.526V98.6038L1.09339 97.5104Z" class="spark" data-astro-cid-jwiz4kkf=""></path> <path d="M440.999 97.5104H510.91L512.004 98.6038V109.526L510.91 110.62H436.633L435.539 109.526L439.905 98.6038L440.999 97.5104Z" class="spark" data-astro-cid-jwiz4kkf=""></path> <path d="M212.056 108.727L210.963 109.821H177.079L175.986 110.914C175.986 113.101 178.173 119.657 186.916 119.657C190.196 119.657 193.472 118.564 194.566 116.377L195.659 115.284H208.776L209.869 116.377C208.776 122.934 203.313 132.774 186.916 132.774C168.336 132.774 159.589 119.657 159.589 104.357C159.589 89.0576 168.332 75.9408 185.822 75.9408C203.313 75.9408 212.056 89.0576 212.056 104.357V108.731V108.727ZM195.659 97.7971C195.659 96.7037 194.566 89.0538 185.822 89.0538C177.079 89.0538 175.986 96.7037 175.986 97.7971L177.079 98.8905H194.566L195.659 97.7971Z" class="text" data-astro-cid-jwiz4kkf=""></path> <path d="M242.66 115.284C242.66 117.47 243.753 118.564 245.94 118.564H255.776L256.87 119.657V130.587L255.776 131.681H245.94C236.103 131.681 227.36 127.307 227.36 115.284V91.2368L226.266 90.1434H218.617L217.523 89.05V78.1199L218.617 77.0265H226.266L227.36 75.9332V66.0965L228.453 65.0031H241.57L242.663 66.0965V75.9332L243.757 77.0265H255.78L256.874 78.1199V89.05L255.78 90.1434H243.757L242.663 91.2368V115.284H242.66Z" class="text" data-astro-cid-jwiz4kkf=""></path> <path d="M283.1 131.681H269.983L268.889 130.587V56.2636L269.983 55.1702H283.1L284.193 56.2636V130.587L283.1 131.681Z" class="text" data-astro-cid-jwiz4kkf=""></path> <path d="M312.61 68.2871H299.493L298.399 67.1937V56.2636L299.493 55.1702H312.61L313.703 56.2636V67.1937L312.61 68.2871ZM312.61 131.681H299.493L298.399 130.587V78.1237L299.493 77.0304H312.61L313.703 78.1237V130.587L312.61 131.681Z" class="text" data-astro-cid-jwiz4kkf=""></path> <path d="M363.98 56.2636V67.1937L362.886 68.2871H353.05C350.863 68.2871 349.769 69.3805 349.769 71.5672V75.9408L350.863 77.0342H361.793L362.886 78.1276V89.0576L361.793 90.151H350.863L349.769 91.2444V130.591L348.676 131.684H335.559L334.466 130.591V91.2444L333.372 90.151H325.723L324.629 89.0576V78.1276L325.723 77.0342H333.372L334.466 75.9408V71.5672C334.466 59.5438 343.209 55.1702 353.046 55.1702H362.882L363.976 56.2636H363.98Z" class="text" data-astro-cid-jwiz4kkf=""></path> <path d="M404.42 132.774C400.046 143.704 395.677 150.261 380.373 150.261H374.906L373.813 149.167V138.237L374.906 137.144H380.373C385.836 137.144 386.929 136.05 388.023 132.77V131.677L370.536 89.05V78.1199L371.63 77.0265H381.466L382.56 78.1199L395.677 115.284H396.77L409.887 78.1199L410.98 77.0265H420.817L421.91 78.1199V89.05L404.424 132.77L404.42 132.774Z" class="text" data-astro-cid-jwiz4kkf=""></path> <path d="M135.454 131.681L134.361 130.587L134.368 98.9172C134.368 93.4541 132.22 89.2182 125.625 89.0806C122.234 88.9926 118.354 89.0729 114.209 89.2488L113.59 89.8834L113.598 130.587L112.504 131.681H99.3913L98.2979 130.587V77.5388L99.3913 76.4454L128.901 76.1778C143.685 76.1778 149.668 86.3356 149.668 97.8009V130.587L148.575 131.681H135.454Z" class="text" data-astro-cid-jwiz4kkf=""></path> </g> <defs data-astro-cid-jwiz4kkf=""> <clipPath id="clip0_235_8" data-astro-cid-jwiz4kkf=""> <rect width="512" height="208.126" fill="white" data-astro-cid-jwiz4kkf=""></rect> </clipPath> </defs> </svg>
+   </div>
+    <ul>
+        <li>Platform ^</li>
+        <li>Solution ^</li>
+        <li>Integration ^</li>
+        <li>Start Building ^</li>
+        <li>Docs ^</li>
+        <li>Pricing ^</li>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="b1 b0">Contact</button>
+        <button class="b1 b0">Log in</button>
+        <button id="b2" class="b0">Sign in</button>
+    </ul>
+</div>
+</div>
+<div id="page2">
+    <div id="page21">
+        <h1 class="p2h">Connect everything.</h1>
+    <h1 class="p2h">Build anything.</h1>
+    <p id="p2p">Netlify is the essential platform for the delivery of exceptional and dynamic web experiences, without limitations.</p>
+    </div>
+    <div id="button">
+        <button id="b3">Deploy To Netlify</button>
+        <button id="b4">Request Demo</button>
+    </div>
+</div>
+<div id="vp">
+<div id="vedio">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tJ95Q2ETMA4?si=pqT2GzmlISMwRMxw" controls title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1 id="vh">Netlify Composable Web Platform</h1>
+    <p id="vp1">Streamlined orchestration, simplified and unified workflows, and real-time updates across infrastructure, workflows, websites and teams — all supported by Enterprise-grade security, services, and a world-class partner ecosystem.</p>
+  </div>
+</div>
+<div id="blocks">
+    <div class="block">
+        <button id="b5">Front Cloud</button>
+        <h3 class="text">Deploy faster</h3>
+        <p class="text">Netlify Core is a frontend cloud solution for developers to build and deploy future-proof digital solutions with modern, composable tooling that works with all modern frameworks.</p>
+        <a href="">Learn more about core <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="block">
+        <button id="b6">Data Layer</button>
+        <h3 class="text">Unify all content</h3>
+        <p class="text">Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source.</p>
+        <a href="">Learn more about Connect <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="block">
+        <button id="b7">Visual Editior</button>
+        <h3 class="text">Click, edit, publish</h3>
+        <p class="text">Netlify Create gives digital teams the freedom to autonomously perform content and website updates faster than ever before with an intuitive visual editor</p>
+        <a href="">Learn more about Create <i class="fa-solid fa-arrow-right"></i></a>
+      <div id="b8">
+        <button id="b81">Explore The Plateform</button>
+      </div>
+    </div>
+</div>
+<h1 id="text2">Enterprises run on Netlify</h1>
+<div class="images">
+    <img src="https://cdn.sanity.io/images/o0o2tn5x/marketing/df62149fee08730c0d664943078437649341b583-300x90.svg?auto=format" alt="">
+    <img src="https://cdn.sanity.io/images/o0o2tn5x/marketing/0c25c71163009a8a7940e6cab7a176d666885c4c-200x200.svg?auto=format" alt="">
+    <img src="https://cdn.sanity.io/images/o0o2tn5x/marketing/c92b6f3d27e27e28affcd30703c80f519c1b8d35-272x92.svg?auto=format" alt="">
+    <img src="https://cdn.sanity.io/images/o0o2tn5x/marketing/0fa2bd154991146f4dfd419ae1d787ad0d5d3e4e-423x118.svg?auto=format" alt="">
+    <img src="https://cdn.sanity.io/images/o0o2tn5x/marketing/6a412c7df6a81641a5e0d77b13889d52f9601455-207x229.svg?auto=format" alt="">
+    <img src="https://cdn.sanity.io/images/o0o2tn5x/marketing/b2b8dc8bba4b51ee053b7c82f342f7208bc641fc-828x244.svg?auto=format" alt="">
+</div>
+<div id="page4">
+    <div id="page41">
+        <h1>
+            Netlify /
+            Mammut logo
+            </h1>
+            <p><i class="fa-regular fa-square-check"></i>Increase in developer productivity</p>
+            <p><i class="fa-regular fa-square-check"></i>Increase in site reliability</p>
+            <p><i class="fa-regular fa-square-check"></i>Quality on par with extremely high standards</p>
+    </div>
+    <div id="page42">
+        <button id="b9">Customer Story</button>
+        <h3 id="h42">Mammut means quality - in brand and in technology</h3>
+        <p id="h42">Mammut came to Netlify because they needed a performant, interoperable Composable Web Platform that could deliver a best-in-class digital brand experience for their customers. They needed a partner that could keep their site reliable and performant during peak retail season and unexpected traffic spikes.</p>
+        <a href="">View the story<i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+</div>
+<div class="hp">
+    <h1 id="hea">Ready to try Netlify?</h1>
+<button id="b10">Request demo</button>
+</div>
+<div id="svg">
+    <svg class="logo1" width="128" height="113" viewBox="0 0 128 113" fill="none" xmlns="http://www.w3.org/2000/svg" data-astro-cid-3ynf2cxt=""> <g clip-path="url(#clip0_236_138)" data-astro-cid-3ynf2cxt=""> <path d="M34.593 94.0509H33.3844L27.3514 88.0179V86.8094L36.5743 77.5866H42.9639L43.8158 78.4385V84.8281L34.593 94.0509Z" fill="#05BDBA" class="spark" data-astro-cid-3ynf2cxt=""></path> <path d="M27.3514 25.816V24.6074L33.3844 18.5744H34.593L43.8158 27.7972V34.1868L42.9639 35.0388H36.5743L27.3514 25.816Z" class="spark" data-astro-cid-3ynf2cxt=""></path> <path d="M35.8412 61.4491H0.73307L0 60.716V51.9192L0.73307 51.1861H35.8412L36.5743 51.9192V60.716L35.8412 61.4491Z" class="spark" data-astro-cid-3ynf2cxt=""></path> <path d="M127.277 61.4491H92.1687L91.4356 60.716V51.9192L92.1687 51.1861H127.277L128.01 51.9192V60.716L127.277 61.4491Z" class="spark" data-astro-cid-3ynf2cxt=""></path> <path d="M58.9428 27.0642V0.73307L59.6759 0H68.4727L69.2058 0.73307V27.0642L68.4727 27.7972H59.6759L58.9428 27.0642Z" class="spark" data-astro-cid-3ynf2cxt=""></path> <path d="M58.9428 111.902V85.5711L59.6759 84.838H68.4727L69.2058 85.5711V111.902L68.4727 112.635H59.6759L58.9428 111.902Z" class="spark" data-astro-cid-3ynf2cxt=""></path> <path d="M80.4594 74.6047H71.6824L70.9493 73.8717V53.3259C70.9493 49.6705 69.5129 46.8372 65.1046 46.7382C62.836 46.6787 60.2405 46.7382 57.4668 46.8471L57.0507 47.2731V73.8618L56.3176 74.5948H47.5406L46.8075 73.8618V38.7636L47.5406 38.0305H67.2939C74.9713 38.0305 81.1925 44.2517 81.1925 51.9291V73.8717L80.4594 74.6047Z" class="text" data-astro-cid-3ynf2cxt=""></path> </g> <defs data-astro-cid-3ynf2cxt=""> <clipPath id="clip0_236_138" data-astro-cid-3ynf2cxt=""> <rect width="128" height="112.635" fill="white" data-astro-cid-3ynf2cxt=""></rect> </clipPath> </defs> </svg>
+    <svg width="20" height="20" viewBox="0 0 98 96" class="icon" data-astro-cid-7kdedvnl="" data-icon="github">  <symbol id="ai:local:github"><path fill="currentcolor" fill-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" clip-rule="evenodd"></path></symbol><use xlink:href="#ai:local:github"></use>  </svg>
+    <svg width="20" height="20" viewBox="0 0 22 16" class="icon" data-astro-cid-7kdedvnl="" data-icon="youtube">  <symbol id="ai:local:youtube"><path fill="currentcolor" d="M10.994.524s-6.508 0-8.142.435c-.874.25-1.594.99-1.839 1.9C.59 4.536.59 8.007.59 8.007s0 3.484.424 5.134c.245.91.952 1.636 1.84 1.887 1.646.448 8.14.448 8.14.448s6.521 0 8.155-.435a2.623 2.623 0 0 0 1.826-1.887c.437-1.663.437-5.134.437-5.134s.013-3.484-.437-5.16A2.605 2.605 0 0 0 19.148.984c-1.634-.46-8.154-.46-8.154-.46zM8.923 4.8l5.415 3.207L8.923 11.2V4.8z"></path></symbol><use xlink:href="#ai:local:youtube"></use>  </svg>
+    <svg width="20" height="20" viewBox="0 0 512 512" class="icon" data-astro-cid-7kdedvnl="" data-icon="twitter">  <symbol id="ai:local:twitter"><style>@keyframes appear{0%{opacity:0;transform:scale3d(.3,.3,.3)}20%{opacity:1;transform:scale3d(1.1,1.1,1.1)}40%{transform:scale3d(.9,.9,.9)}60%{transform:scale3d(1.03,1.03,1.03)}80%{transform:scale3d(.97,.97,.97)}to{transform:scale3d(1.001,1.001,1.001)}}</style><path fill="currentcolor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z" class="icon-twitter-x"></path></symbol><use xlink:href="#ai:local:twitter"></use>  </svg>
+    <svg width="20" height="20" viewBox="0 0 448 512" class="icon" data-astro-cid-7kdedvnl="" data-icon="linkedin">  <symbol id="ai:local:linkedin"><path fill="currentcolor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></symbol><use xlink:href="#ai:local:linkedin"></use>  </svg>
+    <svg width="20" height="20" viewBox="0 0 24 24" class="icon" data-astro-cid-7kdedvnl="" data-icon="discourse">  <symbol id="ai:local:discourse"><path fill="currentcolor" d="M12.103 0C18.666 0 24 5.485 24 11.997c0 6.51-5.33 11.99-11.9 11.99L0 24V11.79C0 5.28 5.532 0 12.103 0zm.116 4.563a7.395 7.395 0 0 0-6.337 3.57 7.247 7.247 0 0 0-.148 7.22L4.4 19.61l4.794-1.074a7.424 7.424 0 0 0 8.136-1.39 7.256 7.256 0 0 0 1.737-7.997 7.375 7.375 0 0 0-6.84-4.585h-.008z"></path></symbol><use xlink:href="#ai:local:discourse"></use>  </svg>
+</div>
+<div id="lastdiv">
+    <div class="ldd"><b>Why Netlify?</b>
+       <p> Customers</p>
+        <p>Composable Web Platform</p>
+        <p>Security</p>
+        <p>Agency Partner Program</p>
+       <p> Technology Partner Program</p>
+    </div>
+    <div class="ldd"><b>Products</b>
+    <p>Composable Web Platform</p>
+    <p>Netlify Connect</p>
+    <p>Netlify Core</p>
+    <p>Netlify Create</p>
+    <p>Netlify SDK</p>
+    <p> Pricing</p>
+    <p>Changelog</p>
+    <p>Add-ons +</p></div>
+    <div class="ldd">
+        <b>Docs</b>
+        <p> Integrations</p>
+        <p>Jamstack Book</p>
+        <p>  Community</p>
+        <p>Resources & Guides</p>
+        <p> Remotely Interesting</p>
+        <p> Technologies</p>
+    </div>
+    <div class="ldd"><b>Company</b>
+    <p>Blog</p>
+    <p> About</p>
+    <p> Careers</p>
+    <p> Compose Conference</p>
+    <p> Press</p>
+    <p> Jamstack Fund</p>
+    <p> Netlify Store</p>
+    <p> Sustainability</p></div>
+    <div class="ldd">
+        <b> Contact Us</b>
+        <p>Sales</p>
+        <p> Support</p>
+        <p> Status</p>
+        <p> Forums</p>
+        <p>  Hire an Agency</p>
+    </div>
+    
+</div>
+<div id="footer">
+<label for="">Stay up to date with Netlify news</label>   
+    <div id="fl">
+        <input type="text"  style="padding:10px;" >
+    <button id="b11">Subscribe</button>
+    </div>
+</div>
+<p>__________________________________________________________________________________________________________________________________________________________________________________________</p>
+<div id="f3">
+    <div id ="f4">
+<p> Trust Center</p>
+<p>Privacy</p>
+<p>GDPR/CCPA</p>
+<p>Abuse</p>
+<p>Cookie Settings</p>
+    </div>
+    <p>© 2024 Netlify</p>
+</div>
+</body>
+</html>
